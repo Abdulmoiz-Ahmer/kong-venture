@@ -20,45 +20,48 @@
   <body>
     <!-- NAVBAR -->
     <nav class="navbar fixed-top navbar-expand-lg">
-      <div class="container">
+      <div class="container position-realative">
         <a class="navbar-brand" href="#">
           <img src="./assets/image/logo.png" />
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon">
-            <img src="./assets/image/menu.png" alt="toggle" />
-          </span>
-        </button>
-      </div>
-      <div class="container">
-        <div class="collapse" id="navbarScroll">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#launchpad">Launchpad</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="incubation.html">Incubation</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#roadmap">Roadmap</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="kv-vault.html">KV Vault</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="paper.html" target="_blank"
-                >Kong Paper</a
-              >
-            </li>
-          </ul>
+        <div class="position-relative">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon">
+              <img src="./assets/image/menu.png" alt="toggle" />
+            </span>
+          </button>
+          <div
+            class="collapse custom-dropdown-menu position-absolute"
+            id="navbarScroll"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="d-block" href="#launchpad">Launchpad</a>
+              </li>
+              <li class="nav-item">
+                <a class="d-block" href="incubation.html">Incubation</a>
+              </li>
+              <li class="nav-item">
+                <a class="d-block" href="#roadmap">Roadmap</a>
+              </li>
+              <li class="nav-item">
+                <a class="d-block" href="kv-vault.html">KV Vault</a>
+              </li>
+              <li class="nav-item">
+                <a class="d-block" href="paper.html" target="_blank"
+                  >Kong Paper</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
